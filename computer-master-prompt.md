@@ -206,3 +206,5 @@ If there is any conflict, prioritize:
 
 ## Execution instruction
 Carry out the above workflow for the repository `maffbowers/sentinel-dashboard`. If the repository already contains functioning dashboard files, preserve compatibility while improving reliability. If `data/latest.json` does not exist, create it. If the dashboard is not yet populated, initialize it cleanly using the schema above.
+
+For each domain category pn the website, optimise for readability and avoid wall-of-text prose. Use paragraphs break data into smaller and more readable pieces. If relevant, bulletpoints can also be used but only if the data type being communicated favours it - don't use bulletpoints just for the sake of it.
