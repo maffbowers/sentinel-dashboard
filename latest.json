@@ -1,0 +1,74 @@
+{
+  "timestamp_uk": "2026-04-03T07:51:00+01:00",
+  "overall_status": "Guarded",
+  "summary": "Sentinel Dashboard is initialized and awaiting its first live Computer-driven intelligence update. The structure is in place for twice-daily UK-focused preparedness and threat monitoring.",
+  "categories": [
+    {
+      "name": "Economic / Financial",
+      "status": "Guarded",
+      "trend": "unchanged",
+      "rationale": "Initial placeholder status until the first live run is completed.",
+      "drivers": ["Dashboard initialized", "Awaiting first evidence-based update"]
+    },
+    {
+      "name": "Military / Security",
+      "status": "Guarded",
+      "trend": "unchanged",
+      "rationale": "Initial placeholder status until the first live run is completed.",
+      "drivers": ["Dashboard initialized", "Awaiting first evidence-based update"]
+    },
+    {
+      "name": "Political / Governance",
+      "status": "Guarded",
+      "trend": "unchanged",
+      "rationale": "Initial placeholder status until the first live run is completed.",
+      "drivers": ["Dashboard initialized", "Awaiting first evidence-based update"]
+    },
+    {
+      "name": "Natural Hazards",
+      "status": "Guarded",
+      "trend": "unchanged",
+      "rationale": "Initial placeholder status until the first live run is completed.",
+      "drivers": ["Dashboard initialized", "Awaiting first evidence-based update"]
+    },
+    {
+      "name": "Social Stability",
+      "status": "Guarded",
+      "trend": "unchanged",
+      "rationale": "Initial placeholder status until the first live run is completed.",
+      "drivers": ["Dashboard initialized", "Awaiting first evidence-based update"]
+    },
+    {
+      "name": "Critical Infrastructure / Cyber",
+      "status": "Guarded",
+      "trend": "unchanged",
+      "rationale": "Initial placeholder status until the first live run is completed.",
+      "drivers": ["Dashboard initialized", "Awaiting first evidence-based update"]
+    }
+  ],
+  "indicators": [
+    {
+      "name": "Brent crude",
+      "value": "Awaiting live data",
+      "direction": "flat",
+      "note": "Computer will populate this field during the first live update."
+    },
+    {
+      "name": "GBP/USD",
+      "value": "Awaiting live data",
+      "direction": "flat",
+      "note": "Computer will populate this field during the first live update."
+    }
+  ],
+  "changes_since_last_update": [
+    "Dashboard initialized and ready for first scheduled run."
+  ],
+  "priority_watch_items": [
+    "Connect Computer workflow and perform first live evidence-based update.",
+    "Verify GitHub Pages site renders latest JSON correctly."
+  ],
+  "source_notes": [
+    "This is a placeholder initialization file.",
+    "No live intelligence assessment has been performed yet."
+  ]
+}

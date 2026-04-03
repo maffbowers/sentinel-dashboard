@@ -1,1 +1,235 @@
-Sentinel Dashboard – work in progress
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sentinel Dashboard</title>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --panel: #121a2b;
+      --panel-2: #172238;
+      --text: #e7edf7;
+      --muted: #9fb0cc;
+      --border: #23324d;
+      --low: #2e8b57;
+      --guarded: #c9a227;
+      --elevated: #d97a00;
+      --high: #c43d3d;
+      --severe: #7a1fa2;
+      --accent: #6fb1ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: linear-gradient(180deg, #09101c, #0d1424 30%, #0b1220);
+      color: var(--text);
+    }
+    .wrap {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-start;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+    h1 { margin: 0 0 8px; font-size: 2rem; }
+    .sub { color: var(--muted); max-width: 70ch; }
+    .stamp {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px 14px;
+      min-width: 240px;
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 18px;
+      margin-bottom: 20px;
+    }
+    .card {
+      background: rgba(18, 26, 43, 0.9);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px;
+      box-shadow: 0 8px 28px rgba(0,0,0,.25);
+    }
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      margin-bottom: 12px;
+    }
+    .status-low { background: rgba(46,139,87,.16); color: #7ce2a8; border: 1px solid rgba(46,139,87,.4); }
+    .status-guarded { background: rgba(201,162,39,.14); color: #f0d36d; border: 1px solid rgba(201,162,39,.4); }
+    .status-elevated { background: rgba(217,122,0,.14); color: #ffb15a; border: 1px solid rgba(217,122,0,.4); }
+    .status-high { background: rgba(196,61,61,.14); color: #ff8b8b; border: 1px solid rgba(196,61,61,.4); }
+    .status-severe { background: rgba(122,31,162,.18); color: #d7a6ff; border: 1px solid rgba(122,31,162,.4); }
+    .grid6 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .mini h3 { margin: 0 0 8px; font-size: 1rem; }
+    .trend { font-size: .9rem; color: var(--muted); margin-bottom: 8px; }
+    .section-title { margin: 0 0 12px; font-size: 1.1rem; }
+    ul { margin: 0; padding-left: 18px; }
+    li { margin: 6px 0; }
+    .two {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-bottom: 20px;
+    }
+    .indicators {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+    .indicator {
+      background: var(--panel-2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px;
+    }
+    .indicator .name { color: var(--muted); font-size: .9rem; }
+    .indicator .value { font-size: 1.2rem; font-weight: 700; margin: 4px 0; }
+    .footer-note { color: var(--muted); font-size: .92rem; }
+    .loading, .error { color: var(--muted); }
+    @media (max-width: 900px) {
+      .hero, .two, .grid6, .indicators { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Sentinel Dashboard</h1>
+        <div class="sub">UK-focused preparedness and threat intelligence dashboard covering economic, military, political, natural, social, and critical infrastructure / cyber risk.</div>
+      </div>
+      <div class="stamp">
+        <div><strong>Last updated</strong></div>
+        <div id="timestamp" class="loading">Loading…</div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="card">
+        <div id="overallStatus"></div>
+        <h2 class="section-title">Executive summary</h2>
+        <div id="summary" class="loading">Loading current assessment…</div>
+      </div>
+      <div class="card">
+        <h2 class="section-title">Priority watch items</h2>
+        <ul id="watchItems" class="loading"><li>Loading…</li></ul>
+      </div>
+    </section>
+
+    <section>
+      <div id="categories" class="grid6"></div>
+    </section>
+
+    <section class="two">
+      <div class="card">
+        <h2 class="section-title">Key indicators</h2>
+        <div id="indicators" class="indicators"></div>
+      </div>
+      <div class="card">
+        <h2 class="section-title">Changes since last update</h2>
+        <ul id="changes" class="loading"><li>Loading…</li></ul>
+      </div>
+    </section>
+
+    <section class="two">
+      <div class="card">
+        <h2 class="section-title">Source notes</h2>
+        <ul id="sourceNotes" class="loading"><li>Loading…</li></ul>
+      </div>
+      <div class="card">
+        <h2 class="section-title">About this board</h2>
+        <div class="footer-note">
+          This dashboard is intended to surface actionable signal over noise. Status levels are: Low, Guarded, Elevated, High, Severe. Trends are shown as improving, unchanged, or worsening versus the previous update.
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function clsForStatus(status) {
+      const s = (status || '').toLowerCase();
+      return 'status-' + (['low','guarded','elevated','high','severe'].includes(s) ? s : 'guarded');
+    }
+
+    function escapeHtml(str) {
+      return String(str ?? '').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+    }
+
+    fetch('./data/latest.json?_=' + Date.now())
+      .then(r => {
+        if (!r.ok) throw new Error('Failed to load data/latest.json');
+        return r.json();
+      })
+      .then(data => {
+        document.getElementById('timestamp').textContent = data.timestamp_uk || 'Unknown';
+        document.getElementById('overallStatus').innerHTML = `<div class="status-pill ${clsForStatus(data.overall_status)}">Overall status: ${escapeHtml(data.overall_status || 'Unknown')}</div>`;
+        document.getElementById('summary').textContent = data.summary || 'No summary available.';
+
+        const watch = document.getElementById('watchItems');
+        watch.className = '';
+        watch.innerHTML = (data.priority_watch_items || []).map(i => `<li>${escapeHtml(i)}</li>`).join('') || '<li>No watch items provided.</li>';
+
+        const cats = document.getElementById('categories');
+        cats.innerHTML = (data.categories || []).map(c => `
+          <article class="card mini">
+            <div class="status-pill ${clsForStatus(c.status)}">${escapeHtml(c.status || 'Unknown')}</div>
+            <h3>${escapeHtml(c.name || 'Unnamed category')}</h3>
+            <div class="trend">Trend: ${escapeHtml(c.trend || 'unchanged')}</div>
+            <div>${escapeHtml(c.rationale || 'No rationale provided.')}</div>
+            ${(c.drivers && c.drivers.length) ? `<ul>${c.drivers.map(d => `<li>${escapeHtml(d)}</li>`).join('')}</ul>` : ''}
+          </article>
+        `).join('');
+
+        const inds = document.getElementById('indicators');
+        inds.innerHTML = (data.indicators || []).map(i => `
+          <div class="indicator">
+            <div class="name">${escapeHtml(i.name || 'Indicator')}</div>
+            <div class="value">${escapeHtml(i.value || 'N/A')}</div>
+            <div class="trend">${escapeHtml(i.direction || 'flat')}</div>
+            <div>${escapeHtml(i.note || '')}</div>
+          </div>
+        `).join('') || '<div class="indicator">No indicators available.</div>';
+
+        const changes = document.getElementById('changes');
+        changes.className = '';
+        changes.innerHTML = (data.changes_since_last_update || []).map(i => `<li>${escapeHtml(i)}</li>`).join('') || '<li>No changes recorded.</li>';
+
+        const notes = document.getElementById('sourceNotes');
+        notes.className = '';
+        notes.innerHTML = (data.source_notes || []).map(i => `<li>${escapeHtml(i)}</li>`).join('') || '<li>No source notes provided.</li>';
+      })
+      .catch(err => {
+        document.getElementById('timestamp').textContent = 'Unavailable';
+        document.getElementById('summary').textContent = 'Dashboard data could not be loaded yet. Commit data/latest.json to populate this page.';
+        document.getElementById('overallStatus').innerHTML = '<div class="status-pill status-guarded">Overall status: Awaiting data</div>';
+        document.getElementById('watchItems').innerHTML = '<li>Create data/latest.json in the repo or let Computer generate it.</li>';
+        document.getElementById('categories').innerHTML = '<article class="card error">No category data available yet.</article>';
+        document.getElementById('indicators').innerHTML = '<div class="indicator error">No indicator data available yet.</div>';
+        document.getElementById('changes').innerHTML = '<li>No prior update available.</li>';
+        document.getElementById('sourceNotes').innerHTML = `<li>${escapeHtml(err.message)}</li>`;
+      });
+  </script>
+</body>
+</html>
