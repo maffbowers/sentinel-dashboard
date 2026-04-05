@@ -1,145 +1,131 @@
 {
-  "timestamp_uk": "2026-04-03T08:00:00+01:00",
-  "overall_status": "High",
-  "summary": "The dominant driver across all categories this morning is the ongoing US-Israel military conflict with Iran and its cascading effects on the global economy, energy markets, and UK security posture. The Strait of Hormuz has been effectively closed to commercial shipping since late February, cutting roughly 20% of global daily oil supply and sending Brent crude above $107/bbl. The OECD has cut its UK GDP growth forecast for 2026 to 0.7% (from 1.2%) while raising the UK inflation forecast to 4%, with some economists warning of 4.6–5% by Q4. The UK is now directly exposed militarily after Iranian drone strikes on RAF Akrotiri in Cyprus in early March, and remains engaged in around-the-clock defensive air operations there.\n\nDomestically, a six-day BMA resident doctors strike is confirmed for 7–13 April, adding NHS pressure. The political landscape is fragmented heading into local, Senedd, and Scottish Parliament elections on 7 May 2026, with Reform UK consistently leading in polls and Labour under sustained pressure. Cyber threats to UK CNI have intensified sharply, with 93% of CNI organisations reporting incidents in the past year. The UK weather picture has stabilised after an extremely wet winter, with no severe active weather hazard as of this update.",
+  "timestamp_uk": "2026-04-05T05:00:00+01:00",
+  "overall_status": "Elevated",
+  "summary": "UK risk remains elevated, driven primarily by spillovers from the ongoing Middle East conflict (energy and fuel costs) and a continued high baseline of cyber and geopolitical risk. Energy price pressures remain material: Ofgem’s cap fell in April, but Cornwall Insight has warned of a sharp rise from July, and recent fuel-price data point to an immediate consumer impact.\n\nDomestically, the confirmed 7–13 April resident doctors’ strike is a near-term service-disruption risk for the NHS, while severe weather risks have risen in the near term with named storm impacts and multiple active Met Office warnings. No single category currently indicates a national-scale crisis, but several are simultaneously above baseline.",
   "categories": [
     {
       "name": "Economic / Financial",
-      "status": "High",
-      "trend": "worsening",
-      "rationale": "The Strait of Hormuz disruption since late February has caused acute commodity and energy market stress. Brent crude spiked to approximately $107–$112/bbl on 2 April, driven by tanker traffic collapsing by around 70% and major shipping firms (Maersk, CMA CGM, Hapag-Lloyd) suspending Gulf transits. The OECD has cut UK 2026 GDP growth to 0.7% and raised its UK CPI forecast to 4%, with credible scenarios pointing to 4.6–5% by Q4 if energy prices persist. GBP/USD closed at 1.3229 on 3 April, down from a year high of 1.3867 in January, near its 2026 low. The Bank of England FPC maintained the CCyB rate at 2% in its April 2026 record, acknowledging a 'substantial macroeconomic shock' while noting the banking system remains adequately capitalised. FTSE 100 is volatile, having dipped to around 10,100–10,170 before a partial recovery to 10,337–10,436 on 1–2 April on intermittent de-escalation signals. The cost of living response from the government (NLW increase to £12.71, energy cap cut by £117) partially cushions households but cannot offset the scale of the energy price shock.",
+      "status": "Elevated",
+      "trend": "unchanged",
+      "rationale": "Energy-driven cost pressures remain the dominant near-term economic risk. Government and regulator changes have reduced the April price-cap level, but credible forecasts still point to a marked rise from July, and pump prices have risen notably since late February.",
       "drivers": [
-        "Strait of Hormuz effectively closed; tanker traffic down ~70%; LNG and crude supply disrupted",
-        "Brent crude ~$107–$112/bbl on 2 April, up ~$41 year-on-year",
-        "OECD cuts UK 2026 GDP forecast to 0.7%; raises CPI forecast to 4%",
-        "GBP/USD at 1.3229 on 3 April, near its 2026 low",
-        "FTSE 100 volatile, multiple risk-off sessions in March; partial recovery on de-escalation signals"
+        "Cornwall Insight forecast an 18% (\u00a3288) rise in the July\u2013September Ofgem cap to \u00a31,929 (typical dual-fuel household)",
+        "Fuel prices up materially since late February (diesel ~182.8p/l; petrol ~152.0p/l), reinforcing cost-of-living pressure",
+        "Brent crude remains elevated versus recent history (late-March level ~\u00a3104\u2013105/bbl), implying ongoing inflation sensitivity"
       ]
     },
     {
       "name": "Military / Security",
-      "status": "High",
-      "trend": "worsening",
-      "rationale": "The UK is now operationally engaged in the Middle East conflict in a defensive capacity. Iranian drone strikes hit RAF Akrotiri (Cyprus) on 1 March, injuring three military dependents and damaging a hangar. The UK has deployed additional Typhoons, F-35s, Wildcat helicopters, Merlin early warning aircraft, and HMS Dragon (destroyer) in support. The UK formally permitted limited US use of British bases for strikes on Iranian missile and launch sites. The IRGC has explicitly designated RAF Akrotiri as a target. Simultaneously, the Ukraine-Russia conflict continues at high intensity: Russia claims full control of Luhansk, Ukraine launched a mass drone attack on Russian energy infrastructure, and Russia has conducted waves of 700+ drones in 24-hour periods. NATO has reinforced the eastern flank under Baltic Sentry and Eastern Sentry operations. UK national terrorism threat level remains at SUBSTANTIAL, with intelligence assessments noting expanded Iranian transnational repression activity on UK soil, including disrupted assassination plots. UK government has refused military base use for direct strikes on Iranian political/economic targets.",
+      "status": "Elevated",
+      "trend": "unchanged",
+      "rationale": "The European security environment remains stressed by the Russia-Ukraine war and broader Middle East instability, with continued risk of spillover into energy markets and shipping routes. No new UK-specific kinetic incident was identified in today’s sources.",
       "drivers": [
-        "RAF Akrotiri struck by Iranian drone (1 March); UK now in active defensive operations over Cyprus",
-        "IRGC has designated Akrotiri a target; further attacks assessed as credible",
-        "UK terrorism threat level: SUBSTANTIAL; Iranian transnational repression activity in UK increasing",
-        "Ukraine-Russia conflict at sustained high intensity; Russia claims Luhansk; mass drone exchanges continue",
-        "NATO eastern flank reinforced; European defence spending rising but capability gaps remain"
+        "Ongoing high-intensity Russia-Ukraine conflict (continuing strikes and positional fighting reported by independent analysts)",
+        "Middle East conflict continues to drive second-order impacts (energy/fuel, potential maritime security implications)",
+        "UK terrorism threat level remains at a raised baseline in official posture (no change noted)"
       ]
     },
     {
       "name": "Political / Governance",
-      "status": "Elevated",
-      "trend": "worsening",
-      "rationale": "The UK political environment is under significant stress. Polling consistently shows Reform UK leading Labour nationally, and major local, Scottish Parliament, and Senedd elections are scheduled for 7 May 2026. There is speculation about a potential Labour leadership challenge if May results are poor. The Starmer government has faced repeated internal rebellions (immigration, jury trial reforms, welfare), and the COBR(M) format has been activated in response to the Middle East crisis and domestic cost-of-living pressures. A 6-day NHS resident doctors strike (BMA) is confirmed for 7–13 April after talks collapsed, representing the 15th walkout in this dispute. Institutions are functioning but under sustained pressure. There is no constitutional crisis or breakdown of governance.",
+      "status": "Guarded",
+      "trend": "unchanged",
+      "rationale": "Core institutions are functioning, but crisis-management posture is active due to the Middle East conflict and energy-price implications, with COBR convened to coordinate response readiness.",
       "drivers": [
-        "May 2026 elections (local, Senedd, Scottish Parliament) approaching; Reform UK leading national polls",
-        "COBR(M) activated for Middle East crisis and cost-of-living response",
-        "BMA resident doctors 6-day strike confirmed 7–13 April; talks collapsed",
-        "Repeated Labour internal rebellions on immigration, court reform, and welfare",
-        "Potential Labour leadership speculation if May local election results are poor"
+        "COBR convened to ensure readiness and coordination for the Iran war impacts",
+        "Energy affordability remains politically salient given forecast cap increases",
+        "NHS industrial action adds operational pressure and political scrutiny"
       ]
     },
     {
       "name": "Natural Hazards",
-      "status": "Guarded",
-      "trend": "improving",
-      "rationale": "The UK experienced its wettest winter on record through early 2026, including Somerset declaring a Major Incident and multiple named storms (Goretti, Ingrid, Chandra). As of late February–March, high pressure has been building and a seasonal turnaround is underway. The Environment Agency had five flood warnings and eight alerts active in late February, primarily in Somerset, Devon, and Dorset, but these have been reducing. April is expected to be drier and milder, around 1.5°C above the seasonal average. No active severe weather warnings or major hazard events are current as of 3 April. The Middle East conflict has not generated direct natural hazard impacts on UK territory.",
+      "status": "Elevated",
+      "trend": "worsening",
+      "rationale": "Near-term weather and flood risk is elevated due to named storm impacts (strong winds; snow/blizzard risk in parts of Scotland) alongside multiple active flood alerts and warnings.",
       "drivers": [
-        "Wettest winter on record; Somerset Major Incident now downgraded",
-        "Flood warnings reducing through late March; no active severe weather warnings as of 3 April",
-        "Spring outlook drier and milder; Azores High building; active hazard risk temporarily reduced"
+        "Met Office warnings linked to Storm Dave include disruptive winds (including an amber warning in parts of the UK) and snow/blizzard risk",
+        "Environment Agency shows active flood warnings and a larger set of flood alerts (including coastal and groundwater-related)",
+        "Combined wind, coastal surge, and lingering groundwater saturation increases local disruption potential"
       ]
     },
     {
       "name": "Social Stability",
       "status": "Elevated",
-      "trend": "worsening",
-      "rationale": "Social tension is elevated on several fronts. The BMA resident doctors strike (7–13 April) is the 15th such walkout since 2023 and will significantly disrupt planned NHS care. A large anti-far-right march in London on 28 March drew an estimated 50,000 (Met Police) to 500,000 (organisers), reflecting deep political polarisation around the rise of Reform UK. An 'Everyone Day' protest at Trafalgar Square is planned for 11 April. Immigration policy, cost-of-living pressures, and Middle East conflict all feed civil friction. Cost-of-living measures from 1 April (NLW increase, energy cap cut) provide some relief but the gap between household stress and available support remains significant given the energy price shock.",
+      "trend": "unchanged",
+      "rationale": "The confirmed 7\u201313 April resident doctors’ strike is the most concrete near-term driver of disruption risk. Cost pressures from fuel and energy remain a background amplifier of public frustration.",
       "drivers": [
-        "BMA resident doctors strike confirmed 7–13 April; 15th walkout in this dispute",
-        "Major anti-far-right protest in London (28 March); significant political polarisation evident",
-        "Energy price shock and cost-of-living pressures increasing household stress",
-        "Further protest events planned for April; immigration policy a continued flashpoint"
+        "Resident doctors’ strike confirmed from 7am 7 April to 6.59am 13 April",
+        "NHS operational strain risk increases (elective activity disruption; staffing and rota pressure)",
+        "Cost-of-living pressures reinforced by fuel-price increases"
       ]
     },
     {
       "name": "Critical Infrastructure / Cyber",
       "status": "Elevated",
-      "trend": "worsening",
-      "rationale": "Cyber risk to UK CNI is at an elevated baseline and trending upward. Bridewell's CNI Report 2026 (March) found 93% of UK CNI organisations had suffered a cyber incident in the past year. The NCSC's 2025 Annual Review recorded 204 nationally significant incidents in the year to August 2025, up from 89 the previous year, with 18 classified as highly significant. In March 2026, the NCSC confirmed AI-powered attacks have surged, with the UK experiencing a 38% year-on-year increase in reported cyber incidents and AI implicated in ~60% of sophisticated attacks. Russian-aligned hacktivist groups have continued DDoS and disruption attacks targeting UK organisations; the NCSC issued a specific warning in January 2026. The government's Cyber Security and Resilience Bill is in progress but not yet enacted. The government's Spring Statement (3 March) omitted direct cyber investment commitments, attracting criticism from the ISF. There are no known major CNI outages active at this update.",
+      "trend": "unchanged",
+      "rationale": "Cyber risk to UK critical national infrastructure remains elevated, with NCSC urging operators to prepare specifically for highly disruptive or destructive campaigns (including ICS-targeting and data-erasing scenarios).",
       "drivers": [
-        "93% of UK CNI organisations reported a cyber incident in past year (Bridewell CNI Report 2026)",
-        "NCSC handled 204 significant incidents to August 2025, up from 89 the prior year",
-        "AI-powered attacks up 38% YoY; AI implicated in ~60% of sophisticated UK incidents",
-        "Russian-aligned hacktivist DDoS activity targeting UK organisations; NCSC warning January 2026",
-        "Cyber Security and Resilience Bill in progress; Spring Statement omitted direct cyber investment"
+        "NCSC warning highlights the need to prepare for \u2018severe\u2019 cyber threats (highly disruptive/destructive attacks)",
+        "Recommended defensive measures emphasise patching known vulnerabilities, MFA/access control, and resilience/recovery planning",
+        "Threat context includes disruptive malware campaigns observed against energy providers in Europe"
       ]
     }
   ],
   "indicators": [
     {
       "name": "Brent crude",
-      "value": "~$107–$112/bbl",
-      "direction": "up",
-      "note": "Spiked to ~$111.69 on 2 April amid Strait of Hormuz disruption; approx. $41 above year-ago level. WTI briefly flipped above Brent due to supply rerouting."
+      "value": "~104.7 USD/bbl (late Mar)",
+      "direction": "flat",
+      "note": "Trading Economics data for March 31 showed Brent around $104\u2013105/bbl after a volatile month, leaving UK inflation sensitive to further shocks."
     },
     {
       "name": "GBP/USD",
-      "value": "1.3229",
-      "direction": "down",
-      "note": "Closed 3 April at 1.3229, near its 2026 low of 1.3160 (31 March). Down from 1.3867 high in January. Pound under pressure from Middle East shock and weak growth outlook."
-    },
-    {
-      "name": "FTSE 100",
-      "value": "~10,337–10,436",
-      "direction": "up",
-      "note": "Partial recovery 1–2 April (up ~1.6% and ~0.7%) after multiple risk-off sessions in March. Month-on-month still down ~5.3%; year-on-year up ~18%."
-    },
-    {
-      "name": "UK CPI (OECD forecast)",
-      "value": "4.0% (2026 forecast)",
-      "direction": "up",
-      "note": "OECD raised UK 2026 CPI forecast from 2.5% to 4.0%. Some economists cite 4.6–5% as credible if energy prices persist at current levels into summer."
-    },
-    {
-      "name": "Strait of Hormuz traffic",
-      "value": "~70% drop from baseline",
-      "direction": "down",
-      "note": "Major container and tanker operators have suspended transits. Iran has made 21+ confirmed attacks on merchant ships as of mid-March. UK-led 40-nation coalition convened 2 April to explore diplomatic options."
-    },
-    {
-      "name": "UK terrorism threat",
-      "value": "SUBSTANTIAL",
+      "value": "~1.323",
       "direction": "flat",
-      "note": "JTAC/MI5 classification unchanged. Iranian transnational repression and proxy activity assessed as increased on UK soil. Multiple plots disrupted in recent period."
+      "note": "Indicative GBP/USD conversion rate around 1.323 (Wise)."
+    },
+    {
+      "name": "FTSE 100 (GB100)",
+      "value": "~10,214 (late Mar)",
+      "direction": "flat",
+      "note": "Trading Economics data for March 31 showed GB100 around 10,214, with the index down ~5% month-on-month but higher year-on-year."
+    },
+    {
+      "name": "Environment Agency flood status",
+      "value": "2 warnings; 25 alerts",
+      "direction": "up",
+      "note": "Active flood warnings and a larger set of flood alerts indicate ongoing local flood risk (notably coastal and groundwater-related)."
+    },
+    {
+      "name": "Met Office severe weather",
+      "value": "Storm Dave warnings active",
+      "direction": "up",
+      "note": "Named storm warnings include disruptive winds and snow/blizzard risk in parts of the UK."
+    },
+    {
+      "name": "NHS industrial action",
+      "value": "Resident doctors strike 7\u201313 Apr",
+      "direction": "up",
+      "note": "Strike is confirmed from 7am 7 April to 6.59am 13 April, raising near-term disruption risk for planned care."
     }
   ],
   "changes_since_last_update": [
-    "First live evidence-based intelligence assessment replaces initialization placeholder.",
-    "Strait of Hormuz effectively closed since late February; oil at ~$107–$112/bbl on 2 April.",
-    "RAF Akrotiri struck by Iranian drone 1 March; UK now in active defensive air operations over Cyprus.",
-    "OECD cut UK 2026 GDP forecast to 0.7%; CPI forecast raised to 4%.",
-    "BMA 6-day resident doctors strike confirmed for 7–13 April.",
-    "UK anti-far-right march on 28 March; further protest planned 11 April.",
-    "NCSC confirmed 38% YoY increase in UK cyber incidents; AI implicated in ~60% of sophisticated attacks."
+    "Overall status reduced from High to Elevated as today\u2019s evidence emphasises elevated but more bounded domestic impacts (weather/flooding and NHS strike) rather than a system-wide acute shock.",
+    "Natural Hazards moved up (Guarded \u2192 Elevated) due to active Storm Dave warnings and active flood warnings/alerts.",
+    "Economic/Financial moved down (High \u2192 Elevated) with focus shifting to forecast/second-order energy impacts rather than a fresh acute market dislocation.",
+    "Political/Governance moved down (Elevated \u2192 Guarded) as governance remains stable despite active crisis coordination (COBR)."
   ],
   "priority_watch_items": [
-    "Strait of Hormuz: any sustained reopening or further escalation is the single highest-impact variable for UK energy prices and inflation.",
-    "BMA strike 7–13 April: monitor NHS pressure and whether derogation processes are activated.",
-    "May 7 elections (local, Senedd, Scottish Parliament): Reform UK performance will shape political stability outlook.",
-    "Oil price trajectory and Bank of England response: watch for rate signals if CPI approaches 4.5–5%.",
-    "Iranian follow-on attacks on RAF Akrotiri or UK-linked assets: assess for direct homeland security implications."
+    "Storm Dave: monitor escalation from warnings to realised disruption (power outages, transport disruption, coastal flooding).",
+    "Flooding: watch any increase in Environment Agency flood warnings (expected flooding) and whether groundwater alerts persist/expand.",
+    "Resident doctors\u2019 strike (7\u201313 April): monitor NHS service impacts, any local critical-incident declarations, and knock-on effects to urgent care.",
+    "Energy affordability: monitor the July Ofgem cap outcome versus Cornwall Insight forecasts and associated policy response.",
+    "CNI cyber posture: track NCSC advisories and any UK-reported disruptive ransomware/ICS incidents affecting essential services."
   ],
   "source_notes": [
-    "Economic data sourced from Fortune/Reuters (Brent crude), poundsterlinglive.com (GBP/USD), Trading Economics/inkl (FTSE 100), Evening Standard/OECD (macroeconomic forecasts), Bank of England FPC Record April 2026.",
-    "Military/security data sourced from Wikipedia (2026 Strait of Hormuz crisis; 2026 drone strikes on Akrotiri), BBC News, MSB Protection UK Security Brief March 2026, Defense and Tech (Ukraine frontline April 2026), Behorizon.org strategic brief 2 April 2026.",
-    "Political data sourced from GOV.UK, Wikipedia (2026 UK politics and government; 2026 local elections), BBC News, Sky News.",
-    "Natural hazard data sourced from YouTube/Met Office spring 2026 forecast; Environment Agency flood warnings (late February 2026).",
-    "Social stability data sourced from Le Monde/Al Jazeera (Together Alliance march 28 March), NHS England and GOV.UK (BMA industrial action April 2026), Action Network (Everyone Day protest 11 April).",
-    "Cyber data sourced from Bridewell CNI Report 2026 (Smart Buildings Magazine), Cloudswitched/NCSC (AI-powered attacks March 2026), Transputec (UK cyber threats 2026), Industrial Cyber (UK government CNI cyber warning).",
-    "Confidence is high for the economic and military categories where multiple independent sources converge. The FTSE 100 value reflects 1–2 April data; today's open (3 April) was not yet captured. GBP/USD is the 3 April opening rate."
+    "Weather hazard evidence based on Met Office UK warnings page (Storm Dave; amber and yellow warnings) and the Environment Agency flood alerts/warnings service (counts and locations).",
+    "Energy/fuel pressure evidence based on ITV reporting of COBR convening and quantified Ofgem cap and pump-price impacts.",
+    "Strike timing evidence based on GOV.UK DHSC media blog confirming resident doctors industrial action dates/times.",
+    "Cyber posture evidence based on Infosecurity Magazine reporting on NCSC guidance around \u2018severe\u2019 cyber threats and recommended mitigations.",
+    "Market indicators use publicly available reference sites (Trading Economics for Brent/GB100 levels and Wise for indicative GBP/USD); figures are indicative and may lag intraday moves."
   ]
 }
