@@ -1,72 +1,72 @@
 {
-  "timestamp_uk": "2026-04-07T05:00:00+01:00",
+  "timestamp_uk": "2026-04-08T05:00:00+01:00",
   "overall_status": "Elevated",
-  "summary": "Overall UK risk remains Elevated. External geopolitical drivers continue to dominate the risk picture via energy and supply-chain exposure, with Brent still high (around $104/bbl on the latest reference quote) and ongoing disruption risk around key maritime routes. Domestically, acute natural-hazard signals are limited (no current Met Office UK weather warnings), but there is continued localised flood risk (one active flood warning and multiple flood alerts) and near-term service disruption risk from confirmed resident doctors’ strike action in England.",
+  "summary": "Overall UK risk remains Elevated. The dominant drivers are external: ongoing Middle East conflict dynamics continue to create risk to global energy supply chains and maritime security, with the Bank of England explicitly citing war-driven energy price rises as a near-term inflation and growth risk. Domestically, the most material near-term disruption signal is the ongoing six-day resident doctors’ strike in England, which raises short-term strain risk for NHS operations. Natural hazards remain broadly contained, with a warm spell peaking then cooler conditions expected, and the Environment Agency’s national flood forecast indicating very low risk despite a small number of active flood alerts.",
   "categories": [
     {
       "name": "Economic / Financial",
       "status": "Elevated",
-      "trend": "improving",
-      "rationale": "Energy-price sensitivity remains the primary macro risk, but the latest reference quote shows Brent lower than the prior update while UK inflation remains above target on the most recent ONS data.",
+      "trend": "unchanged",
+      "rationale": "Energy-price sensitivity remains the primary macro risk and is explicitly highlighted by the Bank of England; inflation remains above target on the latest ONS release, while UK market/FX indicators in reference sources show no acute dislocation.",
       "drivers": [
-        "Trading Economics: Brent crude 104.15 USD/bbl (31 March reference update), still high but lower than prior dashboard reading",
-        "ONS: CPI 3.0% y/y and CPIH 3.2% y/y (12 months to February 2026)",
-        "GBP/USD around 1.325 (Xe mid-market quote) and FTSE 100 reference level positive on the cited quote page (no dislocation signal in these reference sources)"
+        "Bank Rate held at 3.75% with BoE noting Middle East war-driven energy price rises and higher near-term inflation risk",
+        "ONS February 2026 CPI 3.0% y/y and CPIH 3.2% y/y; next CPI release scheduled 22 April 2026",
+        "Reference quotes: Brent around 104 USD/bbl; GBP/USD around 1.324; FTSE 100 around 9,697"
       ]
     },
     {
       "name": "Military / Security",
       "status": "Elevated",
       "trend": "unchanged",
-      "rationale": "The wider security environment remains stressed by ongoing Russia–Ukraine conflict dynamics and Middle East tensions with potential spillovers to energy markets and maritime routes; the UK terrorism threat level remains at a raised baseline.",
+      "rationale": "Geopolitical tensions remain a material UK risk driver through energy and shipping exposure, with official UK messaging condemning attacks on commercial vessels/infrastructure and warning about shipping interference; UK domestic terrorism baseline remains at SUBSTANTIAL.",
       "drivers": [
         "MI5 national terrorism threat level remains SUBSTANTIAL (attack is likely)",
-        "Ongoing Russia–Ukraine conflict remains active, sustaining a heightened European security backdrop",
-        "Middle East instability continues to create spillover risk to global energy and shipping"
+        "GOV.UK joint statement cites attacks on commercial vessels and oil/gas infrastructure and warns of interference with shipping and disruption to global energy supply chains",
+        "Maritime advisories continue to flag elevated risk to UK-associated shipping in the Red Sea / Gulf of Aden region"
       ]
     },
     {
       "name": "Political / Governance",
       "status": "Guarded",
       "trend": "unchanged",
-      "rationale": "UK governance remains stable; government messaging remains focused on mitigating cost-of-living pressures and energy-price exposure rather than emergency domestic political measures.",
+      "rationale": "Governance remains stable, but the government has escalated domestic economic coordination via COBR for Middle East-related impacts and is considering targeted, time-limited regulator powers if price gouging emerges.",
       "drivers": [
-        "GOV.UK (1 April): package of measures framed as easing cost-of-living pressure (wages, energy bills, targeted support)",
-        "Energy price cap and fuel duty measures signalled as continuing mitigation tools through mid-2026",
-        "No new confirmed UK constitutional or governance crisis indicators in the cited official update"
+        "COBR(M) meeting focused on domestic economic impacts of the Middle East situation",
+        "Government exploring anti-profiteering framework and potential time-limited, targeted powers for CMA/regulators",
+        "No clear evidence in reviewed sources of acute UK constitutional or governance disruption"
       ]
     },
     {
       "name": "Natural Hazards",
       "status": "Guarded",
-      "trend": "unchanged",
-      "rationale": "No current Met Office UK weather warnings are listed at the time of update, but flood risk remains present with one active flood warning and multiple flood alerts.",
+      "trend": "improving",
+      "rationale": "National flood risk is described as very low and active EA flood alerts are fewer than the prior update; a warm spell peaks then cooler conditions are expected, with no specific active Met Office warning listings visible in the reviewed page content.",
       "drivers": [
-        "Met Office UK warnings page shows no current active UK weather warnings",
-        "Environment Agency flood service lists 1 flood warning and 15 flood alerts (localised disruption risk)",
-        "Multiple active groundwater/coastal alerts indicate continued localised vulnerability"
+        "Environment Agency flood forecast for the next 5 days indicates very low risk across England and shows 7 flood alerts",
+        "Met Office national forecast highlights very warm conditions peaking (up to ~26°C) then a return to cooler conditions",
+        "No specific active Met Office warning listings visible in the reviewed UK warnings page content"
       ]
     },
     {
       "name": "Social Stability",
       "status": "Elevated",
       "trend": "unchanged",
-      "rationale": "Near-term disruption risk remains elevated due to confirmed multi-day resident doctors’ strike action in England; broader cost-of-living sensitivity persists despite announced mitigation measures.",
+      "rationale": "Ongoing resident doctors’ strike action in England remains the clearest near-term disruption driver, with NHS advising patients to attend appointments unless contacted and to use 111/999/A&E as needed.",
       "drivers": [
-        "BMA: resident doctors’ strike action in England scheduled from 7am 7 April to 6.59am 13 April",
-        "Government framing emphasises ongoing cost-of-living pressure and continued need for mitigation",
-        "Knock-on impacts to healthcare access and local service resilience remain plausible during sustained industrial action"
+        "Resident doctors’ six-day strike in England runs from 07:00 BST Tuesday to 07:00 Monday 13 April",
+        "NHS guidance: do not delay necessary care; attend appointments unless told otherwise; urgent and emergency pathways remain available",
+        "Potential knock-on impacts to elective care and local service resilience during sustained industrial action"
       ]
     },
     {
       "name": "Critical Infrastructure / Cyber",
       "status": "Elevated",
-      "trend": "unchanged",
-      "rationale": "Cyber risk to UK organisations remains elevated; current guidance continues to emphasise rapid remediation for high-risk vulnerabilities and stronger baseline controls (including faster patching expectations).",
+      "trend": "worsening",
+      "rationale": "NCSC-linked reporting indicates active exploitation risk for a high-severity enterprise edge product vulnerability, reinforcing the near-term need for rapid patching and compromise checks across exposed estates.",
       "drivers": [
-        "NCSC has recently highlighted active exploitation affecting widely used enterprise software (per prior dashboard reference)",
-        "Cyber Essentials requirements update for April 2026 tightens expectations (including 14-day installation for high/critical updates and broader MFA requirements)",
-        "Persistent ransomware/cybercrime background risk remains a credible threat to service continuity"
+        "NCSC urging immediate action on actively exploited F5 BIG-IP APM vulnerability CVE-2025-53521 (RCE) per reporting",
+        "Guidance emphasises patching, investigating for compromise, and hardening before reintroducing affected systems",
+        "Persistent background DDoS/ransomware threat environment for UK organisations"
       ]
     }
   ],
@@ -74,57 +74,57 @@
     {
       "name": "Brent crude",
       "value": "104.15 USD/bbl",
-      "direction": "down",
-      "note": "Trading Economics reference quote shows Brent at 104.15 USD/bbl (31 March update), down ~3.02% day-on-day and up ~33.97% over the past month on that page."
+      "direction": "flat",
+      "note": "Trading Economics reference shows Brent at 104.15 USD/bbl (31 March), down 3.02% day-on-day and up 33.97% over the prior month on that page."
     },
     {
       "name": "GBP/USD",
-      "value": "1.32497883",
+      "value": "1.32382092",
       "direction": "flat",
-      "note": "Xe displayed 1.00 GBP = 1.32497883 USD (mid-market rate at 14:08 UTC on the page)."
+      "note": "Xe mid-market rate displayed 1.00 GBP = 1.32382092 USD (timestamp shown: 14:10 UTC on the page)."
     },
     {
       "name": "FTSE 100 (UKX)",
       "value": "9,696.74",
       "direction": "up",
-      "note": "TradingView reference quote page displayed FTSE 100 Index at 9,696.74 GBP, up 0.44% over the past 24 hours on that page."
+      "note": "TradingView reference displayed FTSE 100 Index at 9,696.74 GBP, up 0.44% over the past 24 hours on that page."
     },
     {
       "name": "UK inflation (CPI/CPIH)",
       "value": "CPI 3.0% y/y; CPIH 3.2% y/y (Feb 2026)",
       "direction": "flat",
-      "note": "ONS inflation landing page shows CPI and CPIH annual rates for the 12 months to February 2026."
+      "note": "ONS CPI bulletin (Feb 2026) reports CPI 3.0% and CPIH 3.2% y/y; next release scheduled 22 April 2026."
     },
     {
       "name": "Flood status (England)",
-      "value": "1 warning; 15 alerts",
-      "direction": "flat",
-      "note": "Environment Agency flood service lists one flood warning and fifteen flood alerts at time of reading."
+      "value": "7 alerts (national forecast: very low)",
+      "direction": "down",
+      "note": "Environment Agency national flooding service shows 7 flood alerts and states the flood forecast risk for the next 5 days is very low."
     },
     {
       "name": "UK terrorism threat level",
       "value": "SUBSTANTIAL",
       "direction": "flat",
-      "note": "MI5 indicates the UK national threat level from all forms of terrorism is SUBSTANTIAL (attack is likely)."
+      "note": "MI5 states the UK national threat level from all forms of terrorism is SUBSTANTIAL (attack is likely)."
     }
   ],
   "changes_since_last_update": [
-    "Economic / Financial trend marked improving because the latest reference quote shows Brent lower than the prior dashboard reading, though overall level remains Elevated given continued energy-price sensitivity and inflation above target.",
-    "Flood counts updated (Environment Agency now shows 1 warning and 15 alerts) with no change to Natural Hazards status.",
-    "Market indicator reference quotes refreshed (Brent, GBP/USD, FTSE 100) using current cited pages; overall status held at Elevated."
+    "Natural Hazards trend marked improving and flood indicator updated because Environment Agency now shows 7 flood alerts with a very low national forecast (previous update cited higher alert counts).",
+    "Critical Infrastructure / Cyber trend marked worsening due to NCSC-linked reporting of active exploitation of CVE-2025-53521 affecting F5 BIG-IP APM and emphasis on immediate patching and compromise checks.",
+    "Indicators refreshed from current reference pages (Brent, GBP/USD, FTSE 100) while overall status held at Elevated."
   ],
   "priority_watch_items": [
-    "Energy price and supply-route risk: monitor Brent and any escalation affecting oil/gas flows and maritime chokepoints.",
-    "NHS disruption (7–13 April): monitor operational impacts of resident doctors’ strike and any local critical-incident declarations.",
-    "Flooding: monitor whether Environment Agency flood warnings/alerts expand or escalate, especially groundwater/coastal areas.",
-    "Exploited vulnerabilities: prioritise rapid patching for high/critical issues and monitor NCSC advisories.",
-    "Cyber control tightening: track Cyber Essentials April 2026 requirement changes (MFA and faster patching expectations) for downstream compliance pressure."
+    "Middle East and maritime security: monitor any further attacks or constraints affecting Strait of Hormuz / Red Sea shipping and knock-on energy price impacts.",
+    "NHS disruption (through 13 April): monitor operational impacts of the resident doctors’ strike and any local critical-incident declarations.",
+    "Enterprise edge patching: prioritise rapid mitigation for CVE-2025-53521 (F5 BIG-IP APM) and confirm compromise-check procedures on exposed systems.",
+    "Inflation and policy path: watch for evidence of energy-price pass-through ahead of the ONS inflation release on 22 April.",
+    "Flooding: monitor whether flood alerts escalate to warnings, particularly groundwater and coastal hotspots."
   ],
   "source_notes": [
-    "This update relies on publicly visible reference quote pages for market indicators; some pages may be cached or lag intraday moves.",
-    "ONS inflation rates taken from the ONS inflation and price indices landing page (latest month shown: February 2026).",
-    "Flood counts taken from the Environment Agency flood warnings/alerts service; Met Office warnings status taken from the Met Office UK warnings page.",
-    "Strike timing taken from the BMA press release; impacts may vary by trust and local contingency planning.",
-    "Cyber posture notes reflect baseline-control guidance and scheme updates (Cyber Essentials); incident attribution and sector impacts can be incomplete or lagging."
+    "Market indicators are taken from publicly visible reference quote pages (Trading Economics, Xe, TradingView) which may not fully reflect live intraday pricing.",
+    "Inflation figures use the ONS February 2026 CPI bulletin PDF; the next release date is taken from the same document.",
+    "Flood counts and forecast are taken from the Environment Agency national flooding service page.",
+    "Cyber assessment is based on reporting summarising NCSC guidance on an actively exploited vulnerability; direct NCSC advisories may contain additional technical detail.",
+    "Met Office warning status is based on the content visible on the UK warnings page at the time of reading; warning listings may be more fully expressed via interactive elements or regional pages."
   ]
 }
