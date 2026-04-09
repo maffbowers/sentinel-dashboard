@@ -1,7 +1,7 @@
 {
   "timestamp_uk": "2026-04-09T05:00:00+01:00",
   "overall_status": "Elevated",
-  "summary": "Overall UK risk remains Elevated. The main system-shaping driver remains the Middle East conflict’s impact on energy markets and maritime security: the Bank of England continues to flag war-driven energy price rises as a near-term inflation and growth risk, while UK-led official messaging continues to condemn attacks on commercial shipping and the de facto closure of the Strait of Hormuz. Domestically, near-term disruption risk remains concentrated in industrial action and service pressure rather than acute governance instability; natural hazards remain comparatively contained with flood risk showing a small number of ongoing flood alerts and no UK-wide severe weather warnings indicated in publicly visible warning summaries.",
+  "summary": "Overall UK risk remains Elevated. The main system-shaping driver remains the Middle East conflict\u2019s impact on energy markets and maritime security: the Bank of England continues to flag war-driven energy price rises as a near-term inflation and growth risk, while UK-led official messaging continues to condemn attacks on commercial shipping and the de facto closure of the Strait of Hormuz. Domestically, near-term disruption risk remains concentrated in industrial action and service pressure rather than acute governance instability; natural hazards remain comparatively contained with flood risk showing a small number of ongoing flood alerts and no UK-wide severe weather warnings indicated in publicly visible warning summaries.",
   "categories": [
     {
       "name": "Economic / Financial",
@@ -18,7 +18,7 @@
       "name": "Military / Security",
       "status": "Elevated",
       "trend": "unchanged",
-      "rationale": "External security risks remain elevated due to Middle East maritime insecurity and the continuing Russia–Ukraine war; UK domestic terrorism baseline remains at SUBSTANTIAL.",
+      "rationale": "External security risks remain elevated due to Middle East maritime insecurity and the continuing Russia\u2013Ukraine war; UK domestic terrorism baseline remains at SUBSTANTIAL.",
       "drivers": [
         "MI5 states the UK national terrorism threat level remains SUBSTANTIAL (attack is likely)",
         "GOV.UK joint statement condemns attacks on commercial vessels and civilian oil/gas infrastructure and describes a de facto closure of the Strait of Hormuz",
@@ -51,9 +51,9 @@
       "name": "Social Stability",
       "status": "Elevated",
       "trend": "unchanged",
-      "rationale": "Industrial action and service strain remain the most credible near-term disruption pathway; resident doctors’ strike action remains ongoing, and further transport strike dates are being signalled in non-official trackers/media.",
+      "rationale": "Industrial action and service strain remain the most credible near-term disruption pathway; resident doctors\u2019 strike action remains ongoing, and further transport strike dates are being signalled in non-official trackers/media.",
       "drivers": [
-        "Resident doctors’ industrial action in England continues through mid-April in media reporting",
+        "Resident doctors\u2019 industrial action in England continues through mid-April in media reporting",
         "Further London Underground strike dates are being signalled in public listings/media, implying future localised disruption risk",
         "Cost-of-living and public service pressure remain background stressors"
       ]
@@ -78,10 +78,10 @@
       "note": "Bank of England states Bank Rate is 3.75% and highlights war-driven energy price rises as a near-term inflation risk."
     },
     {
-      "name": "Brent crude (reference)",
-      "value": "72.81 USD/bbl",
+      "name": "Brent crude",
+      "value": "~$98/bbl",
       "direction": "down",
-      "note": "MarketWatch continuous contract reference shows Brent at 72.81, down 0.34% on the day; this may differ from front-month and other benchmarks."
+      "note": "Trading Economics quotes Brent at $98.12 on 9 April (+3.55% on day), rebounding from $93.76 on 8 April (Fortune) after the sharp drop triggered by the US-Iran two-week ceasefire announced 8 April. Down from $107-$112/bbl peak in early April. Prior MarketWatch continuous-contract source (~$72.81) was stale/incorrect and has been replaced."
     },
     {
       "name": "GBP/USD (reference)",
@@ -116,14 +116,14 @@
   "priority_watch_items": [
     "Strait of Hormuz / Gulf risk: monitor for further attacks, mine incidents, or partial reopening signals and knock-on effects on energy prices and shipping costs.",
     "Energy and inflation: monitor signs of pass-through from higher energy prices into UK inflation and any shift in BoE guidance.",
-    "NHS operational resilience: monitor impacts of resident doctors’ industrial action and any local critical-incident declarations.",
+    "NHS operational resilience: monitor impacts of resident doctors\u2019 industrial action and any local critical-incident declarations.",
     "Transport disruption risk: monitor confirmed April transport strike actions in London and national rail-related disputes.",
     "Cyber hygiene: monitor for new NCSC advisories on actively exploited vulnerabilities affecting UK organisations and for any ransomware-driven service disruption."
   ],
   "source_notes": [
     "Market indicators are taken from publicly visible reference quote pages (TradingView, Wise, MarketWatch) and may not reflect live intraday pricing or the exact front-month contract.",
-    "Bank Rate and the BoE’s framing of war-driven energy price risks are taken from the Bank of England’s ‘latest decision’ page.",
-    "Terrorism threat level is taken from MI5’s published threat level page.",
+    "Bank Rate and the BoE\u2019s framing of war-driven energy price risks are taken from the Bank of England\u2019s \u2018latest decision\u2019 page.",
+    "Terrorism threat level is taken from MI5\u2019s published threat level page.",
     "Flood alerts are taken from the Environment Agency flooding service page; weather warning status uses a BBC Weather warning summary page, which may differ from Met Office regional warning detail.",
     "Conflict updates referenced for Ukraine are based on a near-primary conflict tracker summary that aggregates reputable reporting; exact operational details may evolve rapidly."
   ]
