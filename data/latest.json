@@ -1,27 +1,27 @@
 {
-  "timestamp_uk": "2026-04-11T05:00:00+01:00",
+  "timestamp_uk": "2026-04-12T05:00:00+01:00",
   "overall_status": "Elevated",
-  "summary": "Overall UK risk remains Elevated. External security shocks remain the key system-shaping factor, with the Bank of England explicitly noting that conflict-driven increases in global energy and commodity prices will raise near-term CPI inflation and can weaken economic activity. Domestically, the most tangible near-term disruption risk is concentrated in NHS operational pressure during ongoing resident-doctor industrial action rather than acute governance instability; cyber risk remains elevated due to widely deployed edge products facing urgent patching requirements.",
+  "summary": "Overall UK risk remains Elevated. The dominant system-shaping factor remains external security and commodity-price shock risk, with the Bank of England explicitly linking Middle East conflict-driven rises in global energy and other commodity prices to higher near-term CPI inflation and weaker activity. Domestically, disruption risk remains concentrated in public-service delivery (NHS operational pressure during ongoing resident-doctor industrial action) and in cyber exposure for widely deployed edge infrastructure products requiring urgent remediation.",
   "categories": [
     {
       "name": "Economic / Financial",
       "status": "Elevated",
       "trend": "unchanged",
-      "rationale": "The Bank of England continues to frame conflict-driven energy/commodity price shocks as a near-term inflation and growth risk; latest CPI remains above target and energy remains a key pass-through channel for UK household costs.",
+      "rationale": "The Bank of England continues to warn that conflict-driven energy and commodity price rises will lift near-term inflation and weigh on activity; this keeps UK cost-of-living and business-cost sensitivity elevated.",
       "drivers": [
-        "BoE held Bank Rate at 3.75% (19 March 2026) and warned conflict-driven rises in global energy/commodity prices will raise near-term CPI inflation and can weaken activity",
-        "ONS CPI inflation was 3.0% y/y in February 2026 (release date 25 March 2026)",
-        "Brent-linked energy pricing remains a key sensitivity for UK fuel and utilities"
+        "BoE (March 2026) held Bank Rate at 3.75% and stated Middle East conflict-driven rises in global energy and other commodity prices will raise near-term CPI inflation and can weaken activity: https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/march-2026",
+        "ONS inflation dashboard continues to show CPI at 3.0% y/y in February 2026 (above target), indicating limited room for complacency on household cost pressures: https://www.ons.gov.uk/economy/inflationandpriceindices",
+        "Brent pricing remains a key pass-through channel for UK fuel and utility bills"
       ]
     },
     {
       "name": "Military / Security",
       "status": "Elevated",
       "trend": "unchanged",
-      "rationale": "The UK terrorism baseline remains SUBSTANTIAL, and ongoing external conflicts continue to pose spillover risks (energy, shipping, and broader security uncertainty) relevant to UK resilience.",
+      "rationale": "The UK terrorism baseline remains SUBSTANTIAL, and ongoing major conflicts (Russia–Ukraine and the Middle East) sustain elevated spillover risks relevant to UK resilience (energy and wider security uncertainty).",
       "drivers": [
-        "MI5 states the UK national terrorism threat level is SUBSTANTIAL (attack is likely)",
-        "BoE notes conflict in the Middle East has driven global energy and other commodity prices higher, underscoring continued geopolitical spillover channels",
+        "MI5: UK national terrorism threat level is SUBSTANTIAL (attack is likely): https://www.mi5.gov.uk/threats-and-advice/terrorism-threat-levels",
+        "BoE highlights the Middle East conflict as a driver of higher global energy and commodity prices, reflecting continued geopolitical spillover channels: https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/march-2026",
         "Ongoing Russia–Ukraine and Middle East conflict environment sustains elevated background security risk"
       ]
     },
@@ -29,10 +29,10 @@
       "name": "Political / Governance",
       "status": "Guarded",
       "trend": "unchanged",
-      "rationale": "No new evidence in reviewed official sources indicates an acute UK governance crisis; current pressure appears focused on managing economic and service-delivery impacts rather than institutional instability.",
+      "rationale": "No new signal in reviewed sources indicates an acute UK governance crisis; current pressure appears focused on managing economic and public-service delivery impacts rather than institutional instability.",
       "drivers": [
-        "No new reviewed official signals of immediate UK constitutional or governance instability",
-        "Policy attention remains focused on managing economic resilience and public-service delivery pressures",
+        "No reviewed official signals of immediate UK constitutional or governance instability",
+        "Policy attention remains focused on economic resilience and public-service delivery pressures",
         "External security environment continues to create policy-management load"
       ]
     },
@@ -40,11 +40,11 @@
       "name": "Natural Hazards",
       "status": "Guarded",
       "trend": "unchanged",
-      "rationale": "No signal in reviewed sources of an imminent UK-wide severe weather emergency; current hazard picture appears localised and should be monitored through official flood/weather services.",
+      "rationale": "No evidence in reviewed sources today of an imminent UK-wide severe weather emergency; hazard conditions should be monitored via official warning services for time-critical changes.",
       "drivers": [
         "No reviewed official evidence today of UK-wide severe hazard escalation",
-        "Flood risk and severe weather conditions can change quickly; rely on official warning services for time-critical updates",
-        "Seasonal spring transition can still produce local flooding and travel disruption"
+        "Flood and severe weather conditions can change quickly; rely on official warning services for time-critical updates",
+        "Spring transition can still produce local flooding and travel disruption"
       ]
     },
     {
@@ -53,41 +53,41 @@
       "trend": "unchanged",
       "rationale": "Disruption risk remains elevated due to ongoing resident-doctor strike action in England, with expected knock-on impacts for elective activity and operational resilience even where urgent and emergency care is prioritised.",
       "drivers": [
-        "NHS England states resident-doctor industrial action runs from 07:00 on 7 April to 06:59 on 13 April (England)",
-        "NHS England warns the strike period is expected to be particularly challenging due to timing over Easter/bank holidays",
-        "Even with mitigations, strike action tends to drive cancellations/rescheduling and adds to existing service pressure"
+        "NHS England: industrial action is scheduled from 07:00 on Tuesday 7 April to 06:59 on Monday 13 April 2026 (England): https://www.england.nhs.uk/long-read/industrial-action-bma-resident-doctors-april-2026-2/",
+        "Strike action increases cancellations/rescheduling and adds to existing service pressure",
+        "Operational risk is highest where staffing gaps align with already-tight capacity"
       ]
     },
     {
       "name": "Critical Infrastructure / Cyber",
       "status": "Elevated",
       "trend": "unchanged",
-      "rationale": "The advisory environment remains elevated, with the NCSC urging immediate action to mitigate newly disclosed vulnerabilities in widely deployed Citrix NetScaler products, consistent with ongoing exploitation pressure against internet-facing edge systems.",
+      "rationale": "The advisory environment remains elevated, with urgent patching requirements for widely deployed Citrix NetScaler products and continued exploitation pressure against internet-facing edge systems.",
       "drivers": [
-        "NCSC urges UK organisations to take immediate action to mitigate Citrix NetScaler vulnerabilities (CVE-2026-3055, CVE-2026-4368) affecting customer-managed deployments",
-        "NCSC recommends urgent upgrades to fixed NetScaler versions (14.1-66.59+, 13.1-62.23+, 13.1-FIPS/NDcPP 13.1.37.262+)",
-        "Persistent exploitation pressure for perimeter/edge appliances keeps baseline UK cyber risk elevated"
+        "NCSC urges UK organisations to take immediate action to mitigate Citrix NetScaler vulnerabilities (CVE-2026-3055, CVE-2026-4368): https://www.ncsc.gov.uk/news/ncsc-urges-immediate-action-to-mitigate-citrix-netscaler-vulnerabilities",
+        "NetScaler edge appliances are common in enterprise access pathways (VPN/AAA), increasing potential blast radius if unpatched",
+        "Perimeter/edge exploitation remains a persistent driver of UK cyber risk"
       ]
     }
   ],
   "indicators": [
     {
-      "name": "Brent crude (Brent - Europe spot)",
-      "value": "127.61 USD/bbl",
-      "direction": "up",
-      "note": "FRED series DCOILBRENTEU (EIA Brent Europe spot) shows most recent observation 127.61 USD/bbl on 2026-04-02 (page updated Apr 8, 2026). https://fred.stlouisfed.org/series/DCOILBRENTEU"
+      "name": "Brent crude",
+      "value": "95.20 USD/bbl",
+      "direction": "down",
+      "note": "Trading Economics shows Brent at 95.20 USD/bbl (April 10, 2026). https://tradingeconomics.com/commodity/brent-crude-oil"
     },
     {
       "name": "UK CPI inflation (y/y)",
       "value": "3.0%",
       "direction": "flat",
-      "note": "ONS: CPI inflation 3.0% in the 12 months to February 2026 (released 25 March 2026). https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/february2026"
+      "note": "ONS: CPI rose 3.0% in the 12 months to February 2026 (inflation dashboard). https://www.ons.gov.uk/economy/inflationandpriceindices"
     },
     {
       "name": "Bank Rate (UK)",
       "value": "3.75%",
       "direction": "flat",
-      "note": "Bank of England: MPC maintained Bank Rate at 3.75% (published 19 March 2026) and noted conflict-driven energy/commodity price rises will increase near-term CPI inflation. https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/march-2026"
+      "note": "Bank of England: MPC maintained Bank Rate at 3.75% (March 2026) and noted conflict-driven energy/commodity price rises will increase near-term CPI inflation. https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/march-2026"
     },
     {
       "name": "UK terrorism threat level",
@@ -99,24 +99,24 @@
       "name": "Resident doctor industrial action (England)",
       "value": "Active (7–13 Apr)",
       "direction": "flat",
-      "note": "NHS England: industrial action begins 7am on Tuesday 7 April and runs until 6:59am on Monday 13 April. https://www.england.nhs.uk/2026/04/nhs-urges-public-not-to-delay-seeking-medical-help-ahead-of-difficult-strike/"
+      "note": "NHS England: industrial action from 7am Tue 7 April to 6:59am Mon 13 April 2026. https://www.england.nhs.uk/long-read/industrial-action-bma-resident-doctors-april-2026-2/"
     }
   ],
   "changes_since_last_update": [
-    "Timestamp advanced to 2026-04-11 05:00 UK.",
-    "Brent crude indicator source switched to FRED (EIA Brent Europe spot) due to Trading Economics page not being accessible without consent in this environment.",
-    "Social Stability drivers updated with NHS England’s published strike window and service-availability messaging."
+    "Timestamp advanced to 2026-04-12 05:00 UK.",
+    "Brent crude indicator updated using Trading Economics (95.20 USD/bbl, April 10, 2026 observation).",
+    "Minor wording updates to reflect the same core drivers; category statuses unchanged."
   ],
   "priority_watch_items": [
     "Energy spillovers: monitor for renewed upward pressure on wholesale energy and fuel prices and associated UK inflation re-acceleration.",
     "NHS resilience: monitor strike impacts, elective cancellations, and any escalation to critical incidents/OPEL pressures during the remainder of the action window.",
-    "Edge-vulnerability exposure: monitor for UK-targeted exploitation activity against internet-facing NetScaler systems and follow-on NCSC updates.",
+    "Edge-vulnerability exposure: confirm patch/mitigation for Citrix NetScaler in UK organisations and watch for exploitation signals.",
     "Geopolitical spillovers: monitor for any broadening of Middle East and Russia–Ukraine risks that could affect shipping routes, insurance, or supply.",
     "Severe weather: monitor official flood and weather warnings for fast-changing local disruptions."
   ],
   "source_notes": [
-    "This update prioritises official UK sources (BoE, ONS, MI5, NHS England, NCSC) plus a US Federal Reserve Bank of St. Louis (FRED) series for Brent spot pricing derived from EIA data.",
-    "Some feeds are not real-time (e.g., the Brent spot series is published with a lag); intraday trading prices may differ.",
+    "This update prioritises official UK sources (BoE, ONS, MI5, NHS England, NCSC) plus Trading Economics for a Brent price snapshot.",
+    "Some indicators are not real-time; market prices may move intraday and official statistics are published on set schedules.",
     "Where statuses reflect advisory context (e.g., cyber vulnerabilities), they indicate elevated baseline risk rather than confirmed UK national-scale outages."
   ]
 }
