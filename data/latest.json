@@ -1,27 +1,27 @@
 {
-  "timestamp_uk": "2026-04-15T05:00:00+01:00",
+  "timestamp_uk": "2026-04-16T05:00:00+01:00",
   "overall_status": "Elevated",
-  "summary": "Overall UK risk remains Elevated. The most material drivers remain external: the European security environment is still strained by Russia’s ongoing war on Ukraine and heightened focus on protection of undersea infrastructure, while energy and wider risk sentiment remain sensitive to geopolitical spillovers. Domestically, near-term disruption risk is concentrated in planned London Underground strike action later in April; broader natural-hazard conditions are unsettled but currently manageable, with a small number of Environment Agency flood alerts focused on groundwater flooding.",
+  "summary": "Overall UK risk remains Elevated. Energy and market conditions remain sensitive to geopolitical spillovers, with Brent crude holding around the mid-$90s per barrel; UK inflation has eased from recent peaks but remains above target, and the official fiscal watchdog continues to expect modest 2026 growth. In the security environment, Russia’s air attacks on Ukraine continue to drive regional instability, while the UK terrorism threat baseline remains SUBSTANTIAL. Domestically, the most tangible near-term disruption risk is planned London Underground strike action later in April, while weather-related disruption risk is presently focused on a small number of Environment Agency flood alerts (predominantly groundwater-related).",
   "categories": [
     {
       "name": "Economic / Financial",
       "status": "Elevated",
       "trend": "unchanged",
-      "rationale": "Energy-price volatility remains an active upside risk to UK inflation and household costs; official forecasters still expect modest 2026 growth and a gradual inflation return toward target later in the year.",
+      "rationale": "Energy-price volatility remains an active upside risk to UK inflation and household costs; official data show CPI at 3.0% (Feb 2026), while the OBR continues to forecast modest 2026 growth with inflation easing later in the year.",
       "drivers": [
-        "Trading Economics: Brent crude rose to about 95.08 USD/bbl on 15 Apr 2026. https://tradingeconomics.com/commodity/brent-crude-oil",
-        "ONS: CPI inflation was 3.0% in the 12 months to February 2026 (unchanged from January). https://www.ons.gov.uk/economy/inflationandpriceindices",
-        "OBR (March 2026): central forecast expects real GDP growth of 1.1% in 2026. https://obr.uk/efo/economic-and-fiscal-outlook-march-2026/"
+        "Trading Economics: Brent around 94.9 USD/bbl on 16 Apr 2026. https://tradingeconomics.com/commodity/brent-crude-oil",
+        "ONS: CPI inflation was 3.0% in the 12 months to February 2026 (unchanged from January). https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/february2026",
+        "OBR (March 2026 EFO): real GDP growth expected to be 1.1% in 2026; CPI inflation forecast to fall to 2.3% in 2026. https://obr.uk/efo/economic-and-fiscal-outlook-march-2026/"
       ]
     },
     {
       "name": "Military / Security",
       "status": "Elevated",
       "trend": "unchanged",
-      "rationale": "The UK terrorism baseline remains SUBSTANTIAL and conflict risks persist in Europe; the UK continues to publicly signal monitoring and deterrence of suspicious undersea activity.",
+      "rationale": "European security conditions remain strained by Russia’s ongoing war on Ukraine, and the UK terrorism threat baseline remains SUBSTANTIAL; UK posture also continues to emphasise protection of undersea infrastructure.",
       "drivers": [
         "MI5: UK national terrorism threat level is SUBSTANTIAL (attack is likely). https://www.mi5.gov.uk/threats-and-advice/terrorism-threat-levels",
-        "BBC: Russia has continued large-scale drone and missile attacks across Ukraine in recent weeks, with significant civilian impacts reported. https://www.bbc.com/news/articles/c87wxvn0z3vo",
+        "BBC: Russia conducted a large wave of missile and drone strikes across Ukraine (24 Mar 2026 reporting). https://www.bbc.co.uk/news/articles/c87wxvn0z3vo",
         "Sky News (video): UK Defence Secretary described monitoring and deterrence of Russian submarine activity near UK undersea infrastructure. https://www.youtube.com/watch?v=55cbR0sGsDk"
       ]
     },
@@ -29,55 +29,55 @@
       "name": "Political / Governance",
       "status": "Guarded",
       "trend": "unchanged",
-      "rationale": "No evidence reviewed indicates acute UK institutional instability; crisis-management attention continues to be shaped by external security and economic spillovers.",
+      "rationale": "No evidence reviewed indicates acute UK institutional instability; recent crisis-management attention has included monitoring domestic economic impacts from Middle East tensions.",
       "drivers": [
-        "GOV.UK: COBR(M) readout on economic and domestic impacts from the Middle East situation (23 Mar 2026). https://www.gov.uk/government/news/readout-cobrm-iran-economic-and-domestic-impacts-23-march-2026",
-        "Hansard Society: parliamentary agenda continues to prioritise security and foreign-policy statements alongside domestic legislation. https://www.hansardsociety.org.uk/news/parliament-matters-bulletin-13-april-2026"
+        "GOV.UK: COBR(M) readout on domestic economic impacts linked to the Middle East situation (23 Mar 2026). https://www.gov.uk/government/news/readout-cobrm-iran-economic-and-domestic-impacts-23-march-2026",
+        "Institute for Government: Whitehall Monitor 2026 notes the government operating under pressure with public service strain and reshuffle-related changes. https://www.instituteforgovernment.org.uk/publication/whitehall-monitor-2026/overview"
       ]
     },
     {
       "name": "Natural Hazards",
       "status": "Guarded",
       "trend": "unchanged",
-      "rationale": "UK conditions are shifting to a cooler, more unsettled pattern; flooding risk is currently limited but includes a small number of active Environment Agency flood alerts (groundwater-focused).",
+      "rationale": "A cooler, more unsettled pattern is expected, with showers/rain and blustery winds; flooding risk is currently limited but includes a small number of active Environment Agency flood alerts (groundwater-focused).",
       "drivers": [
         "Met Office 10-day trend (9 Apr 2026): cooler and more unsettled conditions with showers/rain and blustery winds. https://www.metoffice.gov.uk/blog/2026/met-office-weather-forecast-for-the-next-10-days-april-9",
-        "GOV.UK flood alerts and warnings: 5 flood alerts active (flooding possible), with one flood warning removed in the last 24 hours. https://check-for-flooding.service.gov.uk/alerts-and-warnings?v=map-live&lyr=ts%2Ctw%2Cta%2Cmv&ext=-10.248901%2C49.93027%2C6.294114%2C55.84093"
+        "GOV.UK flood alerts and warnings: 3 flood alerts active (flooding possible) and 2 flood warnings removed in the last 24 hours (as displayed on page). https://check-for-flooding.service.gov.uk/alerts-and-warnings?v=map-live&lyr=ts%2Ctw%2Cta%2Cmv&ext=-10.248901%2C49.93027%2C6.294114%2C55.84093"
       ]
     },
     {
       "name": "Social Stability",
       "status": "Elevated",
       "trend": "unchanged",
-      "rationale": "The latest resident-doctor strike window has ended, reducing immediate NHS staffing stress, but near-term disruption risk persists from planned London Underground strike action later in April.",
+      "rationale": "Near-term disruption risk is concentrated in planned London Underground strike action (late April). Recent resident-doctor industrial action has ended, reducing immediate NHS staffing stress.",
       "drivers": [
-        "NHS England: resident-doctor industrial action ran from 7am 7 Apr to 6.59am 13 Apr 2026. https://www.england.nhs.uk/long-read/industrial-action-bma-resident-doctors-april-2026-2/",
-        "Time Out: London Underground strike action scheduled for 21-22 and 23-24 April (with further dates in May/June). https://www.timeout.com/london/news/london-tube-and-train-strikes-spring-2026-full-list-of-dates-and-lines-impacted-how-to-travel-everything-you-need-to-know-march-april-may-031026"
+        "Time Out: London Underground strike action planned for April 21–22 and April 23–24 (12pm–11.59am windows). https://www.timeout.com/london/news/london-tube-and-train-strikes-spring-2026-full-list-of-dates-and-lines-impacted-how-to-travel-everything-you-need-to-know-march-april-may-031026",
+        "NHS England: resident-doctor industrial action ran from 7am 7 Apr to 6.59am 13 Apr 2026. https://www.england.nhs.uk/long-read/industrial-action-bma-resident-doctors-april-2026-2/"
       ]
     },
     {
       "name": "Critical Infrastructure / Cyber",
       "status": "Elevated",
       "trend": "unchanged",
-      "rationale": "The advisory environment remains elevated due to urgent patching requirements for widely deployed perimeter products (Citrix NetScaler), reinforcing ongoing exposure from internet-facing edge services.",
+      "rationale": "The UK advisory environment remains elevated due to urgent patching requirements for widely deployed perimeter products (Citrix NetScaler), reinforcing ongoing exposure from internet-facing edge services.",
       "drivers": [
-        "NCSC: urges UK organisations to take immediate action on Citrix NetScaler vulnerabilities CVE-2026-3055 and CVE-2026-4368, including rapid upgrades. https://www.ncsc.gov.uk/news/vulnerabilities-affecting-citrix-netscaler-adc-gateway",
-        "Citrix bulletin: fixed versions and mitigation details for CVE-2026-3055/CVE-2026-4368. https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696300"
+        "NCSC: urges UK organisations to take immediate action on Citrix NetScaler vulnerabilities CVE-2026-3055 and CVE-2026-4368. https://www.ncsc.gov.uk/news/vulnerabilities-affecting-citrix-netscaler-adc-gateway",
+        "Citrix bulletin (vendor details and fixed versions). https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696300"
       ]
     }
   ],
   "indicators": [
     {
       "name": "Brent crude",
-      "value": "95.08 USD/bbl",
-      "direction": "up",
-      "note": "Trading Economics shows Brent at about 95.08 USD/bbl on 15 Apr 2026 (up ~0.30% day-on-day per page text). https://tradingeconomics.com/commodity/brent-crude-oil"
+      "value": "94.91 USD/bbl",
+      "direction": "flat",
+      "note": "Trading Economics shows Brent at ~94.91 USD/bbl on 16 Apr 2026 (page also shows ~94.97; down ~0.02% from previous day in narrative). https://tradingeconomics.com/commodity/brent-crude-oil"
     },
     {
       "name": "UK CPI inflation (12 months to Feb 2026)",
       "value": "3.0%",
       "direction": "flat",
-      "note": "ONS headline: CPI rose by 3.0% in the 12 months to February 2026, unchanged from January. https://www.ons.gov.uk/economy/inflationandpriceindices"
+      "note": "ONS: CPI rose by 3.0% in the 12 months to February 2026, unchanged from January; monthly CPI rose 0.4%. https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/february2026"
     },
     {
       "name": "Energy price cap (typical dual-fuel, Direct Debit)",
@@ -93,27 +93,27 @@
     },
     {
       "name": "Environment Agency flood alerts (England)",
-      "value": "5 active",
-      "direction": "flat",
-      "note": "GOV.UK flooding service shows 5 flood alerts active (flooding possible) on 15 Apr 2026. https://check-for-flooding.service.gov.uk/alerts-and-warnings?v=map-live&lyr=ts%2Ctw%2Cta%2Cmv&ext=-10.248901%2C49.93027%2C6.294114%2C55.84093"
+      "value": "3 active",
+      "direction": "down",
+      "note": "GOV.UK flooding service shows 3 flood alerts active (flooding possible) and 2 flood warnings removed in the last 24 hours (as displayed on page). https://check-for-flooding.service.gov.uk/alerts-and-warnings?v=map-live&lyr=ts%2Ctw%2Cta%2Cmv&ext=-10.248901%2C49.93027%2C6.294114%2C55.84093"
     }
   ],
   "changes_since_last_update": [
-    "Timestamp advanced to 2026-04-15 05:00 UK.",
-    "Brent crude indicator refreshed to ~95.08 USD/bbl (Trading Economics, 15 Apr 2026), lower than the prior update.",
-    "Natural Hazards: added an Environment Agency flooding snapshot (5 flood alerts active, groundwater-focused).",
-    "Indicators updated to include an ONS CPI headline reference point (3.0% in the 12 months to Feb 2026)."
+    "Timestamp advanced to 2026-04-16 05:00 UK.",
+    "Brent crude indicator refreshed to ~94.91 USD/bbl (Trading Economics, 16 Apr 2026).",
+    "Natural Hazards: Environment Agency flooding snapshot updated to 3 active flood alerts (from 5) and notes 2 warnings removed in last 24 hours (as displayed on page).",
+    "Economic / Financial: inflation/growth context tightened with ONS CPI February 2026 bulletin and OBR March 2026 EFO headline forecasts."
   ],
   "priority_watch_items": [
     "Energy spillovers: watch for renewed oil/gas spikes feeding into UK fuel prices and broader inflation expectations.",
     "European security: monitor for Russia-Ukraine escalation and any credible threats to undersea infrastructure or North Atlantic routes.",
     "Transport disruption: monitor confirmed London Underground strike impacts (21–24 April) and any wider industrial-action contagion.",
-    "Flooding: watch whether groundwater flood alerts escalate to warnings, especially if rainfall remains persistent.",
+    "Flooding: watch whether groundwater flood alerts expand again if unsettled weather persists.",
     "Perimeter vulnerability exposure: confirm remediation/patching progress for Citrix NetScaler and watch for exploitation indicators."
   ],
   "source_notes": [
     "This update prioritises official UK sources (ONS, Ofgem, GOV.UK/Environment Agency, MI5, NHS England, NCSC) and the Met Office; Trading Economics is used for a Brent snapshot.",
-    "Some items are baselines or forecasts (MI5 threat level, OBR outlook) and should be interpreted as context rather than real-time incident reporting.",
+    "Some items represent baselines or forecasts (MI5 threat level, OBR outlook) and should be interpreted as context rather than real-time incident reporting.",
     "Flooding counts can change quickly and are England-only for the Environment Agency service; local checks remain important for specific locations. https://check-for-flooding.service.gov.uk/alerts-and-warnings?v=map-live&lyr=ts%2Ctw%2Cta%2Cmv&ext=-10.248901%2C49.93027%2C6.294114%2C55.84093"
   ]
 }
