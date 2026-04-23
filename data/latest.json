@@ -1,27 +1,27 @@
 {
-  "timestamp_uk": "2026-04-22T05:00:00+01:00",
+  "timestamp_uk": "2026-04-23T05:00:00+01:00",
   "overall_status": "Elevated",
-  "summary": "Overall UK risk remains Elevated. Immediate domestic disruption risk is driven by the ongoing London Underground driver strike window (21–24 April), with TfL warning of significant disruption and no service expected on the Piccadilly and Circle lines and on specific sections of the Metropolitan and Central lines.\n\nExternally, European security risk remains elevated due to the continuing Russia–Ukraine war (including major strikes targeting Ukraine’s energy infrastructure) and associated energy/market sensitivity; UK national terrorism threat remains at SUBSTANTIAL. In the economic domain, inflation remains above target and the UK remains exposed to commodity volatility: Brent is around $98/bbl, while the regulated energy price cap remains lower for April–June.",
+  "summary": "Overall UK risk remains Elevated. Inflation data show renewed upward pressure from transport costs (motor fuels), keeping the cost-of-living and policy backdrop sensitive to energy/commodity moves.\n\nOperationally, near-term domestic disruption risk remains elevated due to continuing London Underground industrial action (with significant impacts expected across multiple lines). Externally, the Russia–Ukraine war continues to drive elevated European security risk and associated market/energy spillover sensitivity; UK national terrorism threat remains at SUBSTANTIAL.",
   "categories": [
     {
       "name": "Economic / Financial",
       "status": "Elevated",
-      "trend": "unchanged",
-      "rationale": "Economic risk remains elevated: inflation is still above target and energy-price sensitivity persists, with Brent near $98/bbl even as the regulated energy price cap eased for April–June.",
+      "trend": "worsening",
+      "rationale": "Economic risk is Elevated and slightly worsening on the latest data: CPI inflation rose to 3.3% in the 12 months to March 2026, with transport (motor fuels) a key upward driver, reinforcing sensitivity to energy-price volatility.",
       "drivers": [
-        "Trading Economics: Brent crude oil about 98.22 USD/bbl (Apr 22, 2026). https://tradingeconomics.com/commodity/brent-crude-oil",
-        "ONS: CPI inflation was 3.0% in the 12 months to February 2026 (unchanged from January). https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/february2026",
-        "Ofgem: energy price cap for 1 Apr–30 Jun 2026 is £1,641/year for a typical dual-fuel household paying by Direct Debit. https://www.ofgem.gov.uk/information-consumers/energy-advice-households/energy-price-cap-explained",
-        "OBR (March 2026 EFO): real GDP growth forecast 1.1% in 2026 (central forecast). https://obr.uk/efo/economic-and-fiscal-outlook-march-2026/"
+        "ONS: CPI inflation rose to 3.3% in the 12 months to March 2026, up from 3.0% in February; transport (motor fuels) was the largest upward contribution. https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/march2026",
+        "Trading Economics: Brent crude oil about 103.37 USD/bbl (Apr 23, 2026). https://tradingeconomics.com/commodity/brent-crude-oil",
+        "OBR (March 2026 EFO): real GDP growth forecast 1.1% in 2026 (central forecast). https://obr.uk/efo/economic-and-fiscal-outlook-march-2026/",
+        "Ofgem: energy price cap for 1 Apr–30 Jun 2026 is £1,641/year for a typical dual-fuel household paying by Direct Debit. https://www.ofgem.gov.uk/information-consumers/energy-advice-households/energy-price-cap-explained"
       ]
     },
     {
       "name": "Military / Security",
       "status": "Elevated",
       "trend": "unchanged",
-      "rationale": "European security remains elevated due to the continuing Russia–Ukraine war and escalation/energy spillover risk; UK domestic terrorism risk remains SUBSTANTIAL.",
+      "rationale": "European security remains Elevated due to the ongoing Russia–Ukraine war and escalation/spillover risk; UK domestic terrorism risk remains SUBSTANTIAL.",
       "drivers": [
-        "Reuters: Russia launched missiles and drones targeting Ukraine’s energy infrastructure (reported Feb 22, 2026). https://www.reuters.com/business/energy/russia-hits-ukraine-energy-infrastructure-with-major-missile-drone-strikes-kyiv-2026-02-22/",
+        "Reuters: Russia launched major missile and drone strikes targeting Ukraine’s energy infrastructure (reported Feb 22, 2026). https://www.reuters.com/business/energy/russia-hits-ukraine-energy-infrastructure-with-major-missile-drone-strikes-kyiv-2026-02-22/",
         "MI5: UK national terrorism threat level is SUBSTANTIAL (an attack is likely). https://www.mi5.gov.uk/threats-and-advice/terrorism-threat-levels"
       ]
     },
@@ -29,7 +29,7 @@
       "name": "Political / Governance",
       "status": "Guarded",
       "trend": "unchanged",
-      "rationale": "No acute UK governance instability signal identified in reviewed official sources; crisis-management focus remains on managing spillovers from external shocks (notably Middle East-related economic impacts).",
+      "rationale": "No acute UK governance instability signal identified in reviewed official sources; crisis-management activity continues to focus on managing domestic spillovers from external shocks.",
       "drivers": [
         "GOV.UK: COBR(M) meeting (23 Mar 2026) focused on domestic economic impacts of the Middle East situation and possible anti-profiteering measures. https://www.gov.uk/government/news/readout-cobrm-iran-economic-and-domestic-impacts-23-march-2026"
       ]
@@ -37,46 +37,46 @@
     {
       "name": "Natural Hazards",
       "status": "Guarded",
-      "trend": "worsening",
-      "rationale": "Natural-hazard risk is Guarded, but slightly worsening on near-term flood readiness: England’s national snapshot shows 1 flood warning and 4 flood alerts, while the national forecast risk is reported as very low.",
+      "trend": "improving",
+      "rationale": "Natural-hazard risk remains Guarded; the England national snapshot shows 1 flood warning and 3 flood alerts (slightly fewer alerts than the prior update), suggesting marginally improving near-term flood readiness.",
       "drivers": [
-        "Environment Agency (GOV.UK): national snapshot shows 1 flood warning and 4 flood alerts (updated 21 Apr 2026). https://check-for-flooding.service.gov.uk",
-        "Met Office: official UK weather warnings guidance page for current warning context. https://weather.metoffice.gov.uk/warnings-and-advice/uk-warnings"
+        "Environment Agency (GOV.UK): current national snapshot shows 1 flood warning and 3 flood alerts. https://check-for-flooding.service.gov.uk",
+        "Met Office: UK weather warnings hub (check current official warnings). https://weather.metoffice.gov.uk/warnings-and-advice/uk-warnings"
       ]
     },
     {
       "name": "Social Stability",
       "status": "Elevated",
       "trend": "unchanged",
-      "rationale": "Disruption risk remains elevated due to significant London transport disruption expected during the 21–24 April Tube strike window, with knock-on crowding risk across other TfL services.",
+      "rationale": "Disruption risk remains Elevated due to ongoing London Underground industrial action, with TfL real-time status indicating suspension/no service on key lines during strike periods and broader knock-on delays.",
       "drivers": [
-        "TfL: strike action affecting the London Underground called between 21–24 April, with significant disruption expected and no service expected on Piccadilly and Circle lines and parts of Metropolitan and Central lines. https://tfl.gov.uk/info-for/media/press-releases/2026/april/customers-urged-to-check-before-they-travel-ahead-of-strike-action-next-week",
-        "BBC: live coverage notes disruption and reduced/partial service impacts during the strike period (21 Apr 2026). https://www.bbc.com/news/live/clyxr6epv7lt"
+        "TfL: real-time status updates during the strike period (e.g., Piccadilly line suspended / no service due to strike action). https://tfl.gov.uk/tube-dlr-overground/status/",
+        "BBC: live coverage of Tube strike impacts and negotiations/dispute context (21–22 Apr 2026). https://www.bbc.com/news/live/clyxr6epv7lt"
       ]
     },
     {
       "name": "Critical Infrastructure / Cyber",
       "status": "Elevated",
       "trend": "unchanged",
-      "rationale": "Cyber/CNI risk remains elevated due to urgent patching requirements for widely deployed perimeter appliances (Citrix NetScaler) and ongoing geopolitical-driven cyber risk that can manifest as disruptive activity.",
+      "rationale": "Cyber/CNI risk remains Elevated due to urgent patching requirements for widely deployed perimeter appliances (NetScaler) and ongoing geopolitical-driven cyber risk that can manifest as disruptive activity.",
       "drivers": [
-        "NCSC: urges immediate action to mitigate Citrix NetScaler vulnerabilities CVE-2026-3055 and CVE-2026-4368. https://www.ncsc.gov.uk/news/vulnerabilities-affecting-citrix-netscaler-adc-gateway",
-        "Computing.co.uk: NCSC warning that heightened geopolitical tension can increase cyberattack risk, advising review of DDoS/phishing/ICS guidance. https://www.computing.co.uk/news/2026/security/ncsc-warning-on-iran-linked-hackers"
+        "Citrix: Critical security bulletin for NetScaler ADC/Gateway vulnerabilities CVE-2026-3055 and CVE-2026-4368; customers urged to upgrade to fixed versions. https://support.citrix.com/external/article/CTX696300/netscaler-adc-and-netscaler-gateway-secu.html",
+        "NCSC: urges immediate action to mitigate Citrix NetScaler vulnerabilities CVE-2026-3055 and CVE-2026-4368. https://www.ncsc.gov.uk/news/vulnerabilities-affecting-citrix-netscaler-adc-gateway"
       ]
     }
   ],
   "indicators": [
     {
       "name": "Brent crude",
-      "value": "98.22 USD/bbl",
+      "value": "103.37 USD/bbl",
       "direction": "up",
-      "note": "Trading Economics shows Brent crude oil about 98.22 USD/bbl on Apr 22, 2026. https://tradingeconomics.com/commodity/brent-crude-oil"
+      "note": "Trading Economics shows Brent crude oil about 103.37 USD/bbl on Apr 23, 2026. https://tradingeconomics.com/commodity/brent-crude-oil"
     },
     {
-      "name": "UK CPI inflation (12 months to Feb 2026)",
-      "value": "3.0%",
-      "direction": "flat",
-      "note": "ONS: CPI rose by 3.0% in the 12 months to February 2026 (unchanged from January). https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/february2026"
+      "name": "UK CPI inflation (12 months to Mar 2026)",
+      "value": "3.3%",
+      "direction": "up",
+      "note": "ONS: CPI rose by 3.3% in the 12 months to March 2026, up from 3.0% in February; transport (motor fuels) was the largest upward contribution. https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/march2026"
     },
     {
       "name": "Ofgem energy price cap (typical dual-fuel, Direct Debit)",
@@ -92,26 +92,27 @@
     },
     {
       "name": "England flood warnings/alerts (national snapshot)",
-      "value": "1 warning / 4 alerts",
-      "direction": "up",
-      "note": "Environment Agency: national snapshot lists 1 flood warning and 4 flood alerts (updated 21 Apr 2026). https://check-for-flooding.service.gov.uk"
+      "value": "1 warning / 3 alerts",
+      "direction": "down",
+      "note": "Environment Agency: national snapshot lists 1 flood warning and 3 flood alerts (viewed 23 Apr 2026). https://check-for-flooding.service.gov.uk"
     }
   ],
   "changes_since_last_update": [
-    "Timestamp advanced to 22 April 2026 05:00 UK; overall status held at Elevated.",
-    "Brent crude indicator refreshed to ~98.22 USD/bbl (Trading Economics, 22 Apr 2026).",
-    "Natural Hazards snapshot updated: national flood status now shows 1 warning and 4 alerts (vs 1 warning and 4 alerts in the latest EA snapshot), supporting a slightly worsening near-term readiness trend.",
-    "Social Stability drivers refreshed with TfL press release (21–24 April strike dates and expected impacts) and BBC live coverage of disruptions."
+    "Timestamp advanced to 23 April 2026 05:00 UK; overall status held at Elevated.",
+    "Economic / Financial trend set to worsening after ONS reported CPI inflation rising to 3.3% in March 2026 (from 3.0% in February), with motor fuels a key upward driver.",
+    "Brent crude indicator refreshed to ~103.37 USD/bbl (Trading Economics, 23 Apr 2026).",
+    "Environment Agency national snapshot updated: 1 flood warning / 3 flood alerts (down from 1 / 4), supporting an improving Natural Hazards trend.",
+    "Social Stability drivers refreshed to include TfL real-time line status updates during the strike period."
   ],
   "priority_watch_items": [
-    "London transport: monitor Tube strike impacts through 24 April and knock-on crowding across other TfL services.",
-    "Energy spillovers: watch for further Brent moves feeding into UK fuel prices and inflation expectations.",
-    "Perimeter vulnerability exposure: confirm remediation/patching progress for Citrix NetScaler and monitor for exploitation indicators.",
+    "London transport: monitor impacts through the ongoing Tube strike window and knock-on crowding across other TfL services.",
+    "Inflation/energy: watch for further oil-price moves feeding into UK fuel prices and CPI pressures.",
+    "Perimeter vulnerability exposure: confirm remediation/upgrade progress for NetScaler ADC/Gateway and monitor for exploitation indicators.",
     "European security: monitor for further Russia–Ukraine escalation affecting energy infrastructure and market risk sentiment.",
-    "Flooding: monitor Environment Agency updates where flood warnings/alerts are active and any rapid escalation driven by rainfall."
+    "Flooding: monitor Environment Agency updates where warnings/alerts are active and any rapid escalation driven by rainfall."
   ],
   "source_notes": [
-    "This update prioritises UK official sources (ONS, Ofgem, MI5, NCSC, GOV.UK, Environment Agency, TfL) with Reuters and BBC used for conflict and disruption reporting; Trading Economics is used for a Brent price snapshot. https://tradingeconomics.com/commodity/brent-crude-oil",
-    "Flood snapshot extraction did not reliably return the page’s explicit update timestamp in this run; the EA page indicates 'updated 21 April 2026' in the national snapshot view. https://check-for-flooding.service.gov.uk"
+    "This update prioritises UK official sources (ONS, Ofgem, MI5, NCSC, Environment Agency, TfL, GOV.UK) with Reuters used for conflict/energy reporting; Trading Economics is used for a Brent price snapshot. https://tradingeconomics.com/commodity/brent-crude-oil",
+    "EA national flood snapshot extraction did not reliably return the page’s explicit update timestamp in this run; counts are from the live national snapshot view on 23 Apr 2026. https://check-for-flooding.service.gov.uk"
   ]
 }
