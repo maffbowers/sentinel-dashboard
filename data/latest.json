@@ -1,16 +1,16 @@
 {
-  "timestamp_uk": "2026-04-27T05:00:00+01:00",
+  "timestamp_uk": "2026-04-28T05:00:00+01:00",
   "overall_status": "Elevated",
-  "summary": "Overall UK risk remains Elevated. Economic conditions are still sensitive to energy and traded-goods costs: ONS reports CPI inflation at 3.3% in the 12 months to March 2026, with motor fuels the largest upward contributor to the monthly change in the CPI annual rate. Brent crude is around the mid-$100s per barrel, keeping upside risk to transport and input costs.\n\nSecurity and resilience pressures remain elevated. The Russia–Ukraine war continues to generate escalation and supply-route risk for Europe (including recent reported drone strikes in Odesa). Domestically, cyber risk remains elevated with the NCSC urging immediate action on Citrix NetScaler ADC/Gateway vulnerabilities (CVE-2026-3055 and CVE-2026-4368). UK natural-hazard risk is comparatively contained, with no active Met Office weather warnings and Environment Agency headline flood alerts remaining low.",
+  "summary": "Overall UK risk remains Elevated. Economic conditions remain sensitive to fuel and traded-goods costs: the ONS reports CPI inflation at 3.3% in the 12 months to March 2026, and highlights motor fuels as the largest upward contributor to the monthly change in the CPI annual rate. Brent crude remains in the low-$100s per barrel, maintaining upside risk to transport and input costs.\n\nSecurity and resilience pressures remain elevated. The Russia–Ukraine war continues to generate escalation and supply-route risk for Europe (including continued drone-strike activity around Odesa). Domestically, cyber risk remains elevated given urgent mitigation guidance around Citrix NetScaler ADC/Gateway vulnerabilities (CVE-2026-3055 and CVE-2026-4368). UK natural-hazard risk appears comparatively contained, with no active Met Office weather warnings visible and Environment Agency headline flood alerts remaining low.",
   "categories": [
     {
       "name": "Economic / Financial",
       "status": "Elevated",
       "trend": "unchanged",
-      "rationale": "Economic risk remains Elevated: inflation is still above target and sensitive to fuel/energy costs. ONS reports CPI inflation at 3.3% in the 12 months to March 2026 and notes motor fuels as the largest upward contributor to the monthly change in the CPI annual rate; Brent remains around the mid-$100s per barrel, maintaining upside risk to transport and input costs.",
+      "rationale": "Economic risk remains Elevated: inflation is still above target and sensitive to fuel/energy costs, while Brent remains elevated, maintaining upside risk to transport and input costs.",
       "drivers": [
         "ONS: CPI inflation 3.3% (12 months to March 2026); motor fuels largest upward contribution to monthly change in CPI annual rate. https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/march2026",
-        "Trading Economics: Brent crude around 106.55 USD/bbl (Apr 27, 2026). https://tradingeconomics.com/commodity/brent-crude-oil",
+        "Trading Economics: Brent crude 109.50 USD/bbl (Apr 28, 2026). https://tradingeconomics.com/commodity/brent-crude-oil",
         "Ofgem: energy price cap for 1 Apr–30 Jun 2026 is £1,641/year (typical dual-fuel household paying by Direct Debit). https://www.ofgem.gov.uk/information-consumers/energy-advice-households/energy-price-cap-explained",
         "OBR (March 2026 EFO): real GDP growth forecast 1.1% in 2026. https://obr.uk/efo/economic-and-fiscal-outlook-march-2026/"
       ]
@@ -40,10 +40,10 @@
       "name": "Natural Hazards",
       "status": "Guarded",
       "trend": "unchanged",
-      "rationale": "Near-term natural-hazard risk is Guarded: Met Office shows no active UK weather warnings, and Environment Agency flood risk remains limited with a low headline number of flood alerts.",
+      "rationale": "Near-term natural-hazard risk is Guarded: Met Office shows no active UK weather warnings visible on the warnings dashboard, and Environment Agency flood risk remains limited with a low headline number of flood alerts.",
       "drivers": [
-        "Met Office: UK weather warnings page shows no active warnings (viewed 27 Apr 2026). https://weather.metoffice.gov.uk/warnings-and-advice/uk-warnings",
-        "Environment Agency (GOV.UK): flood alerts and warnings page shows 2 flood alerts (viewed 27 Apr 2026). https://check-for-flooding.service.gov.uk/alerts-and-warnings"
+        "Met Office: UK weather warnings dashboard shows 'No warnings' across the displayed period (viewed 28 Apr 2026). https://weather.metoffice.gov.uk/warnings-and-advice/uk-warnings",
+        "Environment Agency (GOV.UK): flood alerts and warnings page shows 2 flood alerts (viewed 28 Apr 2026). https://check-for-flooding.service.gov.uk/alerts-and-warnings"
       ]
     },
     {
@@ -62,16 +62,17 @@
       "trend": "unchanged",
       "rationale": "Cyber/CNI risk remains Elevated due to urgent patching and configuration checks for Citrix NetScaler ADC/Gateway vulnerabilities highlighted by the NCSC; exposure is time-sensitive for internet-facing edge appliances.",
       "drivers": [
-        "NCSC: urges immediate action to mitigate Citrix NetScaler ADC/Gateway vulnerabilities CVE-2026-3055 and CVE-2026-4368. https://www.ncsc.gov.uk/news/vulnerabilities-affecting-citrix-netscaler-adc-gateway"
+        "NCSC: urges immediate action to mitigate Citrix NetScaler ADC/Gateway vulnerabilities CVE-2026-3055 and CVE-2026-4368. https://www.ncsc.gov.uk/news/vulnerabilities-affecting-citrix-netscaler-adc-gateway",
+        "Citrix: security bulletin for NetScaler ADC/Gateway covering CVE-2026-3055 and CVE-2026-4368 (published Mar 27, 2026). https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696300&articleURL=NetScaler_ADC_and_NetScaler_Gateway_Security_Bulletin_for_CVE_2026_3055_and_CVE_2026_4368"
       ]
     }
   ],
   "indicators": [
     {
       "name": "Brent crude",
-      "value": "106.55 USD/bbl",
+      "value": "109.50 USD/bbl",
       "direction": "up",
-      "note": "Trading Economics: Brent crude 106.55 USD/bbl (Apr 27, 2026). https://tradingeconomics.com/commodity/brent-crude-oil"
+      "note": "Trading Economics: Brent crude 109.50 USD/bbl (Apr 28, 2026). https://tradingeconomics.com/commodity/brent-crude-oil"
     },
     {
       "name": "UK CPI inflation (12 months to Mar 2026)",
@@ -95,14 +96,13 @@
       "name": "England flood alerts (headline count)",
       "value": "2 alerts",
       "direction": "flat",
-      "note": "Environment Agency flood alerts and warnings page shows 2 flood alerts (viewed 27 Apr 2026). https://check-for-flooding.service.gov.uk/alerts-and-warnings"
+      "note": "Environment Agency flood alerts and warnings page shows 2 flood alerts (viewed 28 Apr 2026). https://check-for-flooding.service.gov.uk/alerts-and-warnings"
     }
   ],
   "changes_since_last_update": [
-    "Timestamp advanced to 27 April 2026 05:00 UK; overall status held at Elevated.",
-    "Brent crude indicator refreshed from Reuters settlement pricing to Trading Economics snapshot (106.55 USD/bbl on Apr 27, 2026).",
-    "Natural Hazards view re-checked: Met Office still shows no active UK weather warnings; Environment Agency still shows 2 flood alerts.",
-    "Military/Security drivers expanded with GOV.UK Defence Secretary operational update on Russian submarine activity near UK waters (published Apr 9, 2026)."
+    "Timestamp advanced to 28 April 2026 05:00 UK; overall status held at Elevated.",
+    "Brent crude indicator refreshed to 109.50 USD/bbl (Trading Economics, Apr 28, 2026).",
+    "Natural Hazards re-checked: Met Office warnings dashboard still shows no active warnings; Environment Agency headline flood alerts remain at 2."
   ],
   "priority_watch_items": [
     "Fuel/inflation sensitivity: monitor whether sustained Brent strength feeds through into UK pump prices and near-term inflation expectations.",
@@ -113,6 +113,6 @@
   ],
   "source_notes": [
     "This update prioritises UK official sources (ONS, Ofgem, MI5, NCSC, Met Office, Environment Agency, MOD/GOV.UK) with Reuters used for conflict reporting and the BBC for transport disruption reporting.",
-    "The Environment Agency flood-alert headline count was verified by page view due to variability in automated extraction. https://check-for-flooding.service.gov.uk/alerts-and-warnings"
+    "Environment Agency and Met Office warning states were verified by direct page view due to cookie banners and variable text extraction. https://check-for-flooding.service.gov.uk/alerts-and-warnings https://weather.metoffice.gov.uk/warnings-and-advice/uk-warnings"
   ]
 }
